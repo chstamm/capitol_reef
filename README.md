@@ -21,3 +21,10 @@ The idea here is to create this website to be hosted remotely on raspberry pis. 
 * aframe VR
     * Link: [https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js]
     * File-name: aframe-vr-master.js
+
+
+### *Info and image links:*
+
+* Waterpocket Fold: 
+    * Link: [https://www.nps.gov/care/planyourvisit/upload/FINAL-UNIGRID-PDF-CARE_S1_Web.jpg]
+    * File-name: FINAL-UNIGRID-PDF-CARE_S1_Web.jpg
