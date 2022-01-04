@@ -45,6 +45,8 @@ div.contentContainer {
   max-width: 680px;
   margin-bottom: 120px;
 }
+
+
 div.header {
   display: flex;
   padding: 1rem 0.5rem;
