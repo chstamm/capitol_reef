@@ -1,0 +1,66 @@
+<html land="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Model Viewer</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Roboto+Slab:wght@200;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="contentContainer">
+        <div class="header">
+            <h1>The Waterpocket Fold</h1>
+        </div>
+        <div class="modelViewer">
+            <model-viewer src="assets/waterpocket2.glb" camera-controls autoplay auto-rotate ar
+                ios-src="assets/waterpocket2.usdz">
+                <button class="arButton" slot="ar-button">
+                    <div class="arButton">
+                        <span class="material-icons">
+                          view_in_ar
+                        </span>
+                      <p class="button">
+                        View land model in AR
+                    </p>
+                </button>
+            </model-viewer>
+        </div>
+        <div class="textContainer">
+            <h3>Uplift</h3>
+            <p class="body">
+                Between 50 and 70 million years ago, an ancient
+                fault was reactivated during a time of tectonic activity, lifting the layers to the west of the fault
+                over 7.000 feet higher than those to the east. Rather than cracking, the rock layers folded over the
+                fault line. Continued lift occurred again some 20 million years ago.
+            </p>
+            <p class="caption">All information about the Waterpocket Fold was obtained from <a href="https://www.nps.gov/care/planyourvisit/upload/FINAL-UNIGRID-PDF-CARE_S1_Web.jpg" target="blank">this PDF document</a> from the National Parks service.</p>
+        </div>
+        <div class="navigationButtons">
+            <a href="index.html">
+                <div class="navigationButton">
+                    <span class="material-icons">
+                        navigate_before
+                    </span>
+                    <p class="button">Back</p>
+                </div>
+            </a>
+            <a href="waterpocket3.html">
+                <div class="navigationButton">
+                    <p class="button">Forward</p>
+                    <span class="material-icons">
+                        navigate_next
+                    </span>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

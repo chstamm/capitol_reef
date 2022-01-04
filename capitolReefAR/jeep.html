@@ -1,0 +1,65 @@
+<html land="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Model Viewer</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Roboto+Slab:wght@200;400;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="contentContainer">
+    <div class="header">
+      <h1>Sleeping Rainbow Ranch</h1>
+    </div>
+    <div class="modelViewer">
+      <model-viewer src="assets/low-poly_truck_car_drifter/scene.gltf" camera-controls autoplay auto-rotate ar
+        ios-src="assets/low-poly_truck_car_drifter.usdz">
+        <button class="arButton" slot="ar-button">
+          <div class="arButton">
+            <span class="material-icons">
+              view_in_ar
+            </span>
+          <p class="button">
+            View jeep in AR
+          </p>
+        </button>
+      </model-viewer>
+    </div>
+    <div class="textContainer">
+      <h2>Lurt's Jeep Tours</h2>
+      <p class="body">
+        The ranch and Lurt's Jeep tours to remote slickrock wonders were
+        featured in magazines like Arizona Highways.
+      </p>
+      <p class="caption"><a href="(https://skfb.ly/6QUOx)" target="blank">"Low-poly truck (car "Drifter")"</a> by Ivan Norman is licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/" target="blank">Creative
+        Commons Attribution-NonCommercial</a>. Information about the jeep tours was obtained from <a href="https://www.uvu.edu/crfs/history.html" target="_blank">this article</a>.</p>
+    </div>
+    <div class="navigationButtons">
+      <a href="adventurers.html">
+        <div class="navigationButton">
+          <span class="material-icons">
+            navigate_before
+          </span>
+          <p class="button">Back</p>
+        </div>
+      </a>
+      <a href="ranch.html">
+        <div class="navigationButton">
+          <p class="button">Forward</p>
+          <span class="material-icons">
+            navigate_next
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>
