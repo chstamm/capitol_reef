@@ -1,3 +1,12 @@
+@font-face {
+  font-family:'EB Garamond', serif;
+  src: url(fonts/EB_Garamond/static/EBGaramond-Regular.ttf);
+  font-family:'Montserrat', sans-serif;
+  src: url(fonts/Montserrat/Montserrat-Medium.ttf);
+  font-family:'Roboto Slab', serif;
+  src: url(fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf);
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -52,7 +61,7 @@ div.header {
   padding: 1rem 0.5rem;
 }
 h1 {
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0px;
   color: #000;
 }
