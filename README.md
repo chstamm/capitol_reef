@@ -28,3 +28,11 @@ The idea here is to create this website to be hosted remotely on raspberry pis. 
 * Waterpocket Fold: 
     * Link: [https://www.nps.gov/care/planyourvisit/upload/FINAL-UNIGRID-PDF-CARE_S1_Web.jpg]
     * File-name: FINAL-UNIGRID-PDF-CARE_S1_Web.jpg
+
+### *Font and Icon links:*
+
+* Material Icons
+    * Link: [https://fonts.googleapis.com/icon?family=Material+Icons]
+    * File-name: material-icons.css
+    * *Note that material icons link also had a link in the file, which was made into a file to work remotely* 
+    * The line <link rel="preconnect" href="https://fonts.gstatic.com"> was commented out, and that didn't cause issue. It seems as though this link no longer connects to anything. 
