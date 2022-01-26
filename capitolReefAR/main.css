@@ -1,10 +1,12 @@
 @font-face {
-  font-family:'EB Garamond', serif;
-  src: url(fonts/EB_Garamond/static/EBGaramond-Regular.ttf);
-  font-family:'Montserrat', sans-serif;
-  src: url(fonts/Montserrat/Montserrat-Medium.ttf);
-  font-family:'Roboto Slab', serif;
-  src: url(fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf);
+  font-family: 'RobotoSlab';
+    src: url('fonts/robato_slab/RobotoSlab-Regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/robato_slab/RobotoSlab-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/robato_slab/RobotoSlab-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/robato_slab/RobotoSlab-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/robato_slab/RobotoSlab-Regular.svg') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -61,7 +63,7 @@ div.header {
   padding: 1rem 0.5rem;
 }
 h1 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'RobotoSlab';
   margin: 0px;
   color: #000;
 }
@@ -112,7 +114,7 @@ a {
   color: #f6b24d;
 }
 p.button {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "RobotoSlab";
   margin: 0.1rem 0.2rem 0.2rem 0.2rem;
 }
 div.textContainer {
@@ -120,12 +122,12 @@ div.textContainer {
   margin: 0.5rem;
 }
 h2 {
-  font-family: "Roboto Slab", serif;
+  font-family: "RobotoSlab";
   margin: 0px;
   color: #000;
 }
 h3 {
-  font-family: "Roboto Slab", serif;
+  font-family: "RobotoSlab";
   margin: 0px;
   color: #000;
 }
@@ -136,7 +138,7 @@ p.body {
   color: #000;
 }
 p.caption {
-  font-family: "Roboto Slab", serif;
+  font-family: "RobotoSlab";
   font-size: 0.8rem;
   margin: 0.5rem 0rem 0rem 0rem;
   color: #000;
