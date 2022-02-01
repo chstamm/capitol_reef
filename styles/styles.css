@@ -113,10 +113,49 @@ html {
   font-style: italic;
 }
 
-h1 {
-  color: blue;
+@font-face {
   font-family: 'Frutiger';
-  font-weight: 700;
+  src: url("fonts/Frutiger/FrutigerLTStd-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Frutiger/FrutigerLTStd-Light.woff2") format("woff2"), url("fonts/Frutiger/FrutigerLTStd-Light.woff") format("woff"), url("fonts/Frutiger/FrutigerLTStd-Light.ttf") format("truetype"), url("fonts/Frutiger/FrutigerLTStd-Light.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Frutiger';
+  src: url("fonts/Frutiger/FrutigerLTStd-LightItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Frutiger/FrutigerLTStd-LightItalic.woff2") format("woff2"), url("fonts/Frutiger/FrutigerLTStd-LightItalic.woff") format("woff"), url("fonts/Frutiger/FrutigerLTStd-LightItalic.ttf") format("truetype"), url("fonts/Frutiger/FrutigerLTStd-LightItalic.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Frutiger';
+  src: url("fonts/Frutiger/FrutigerLTStd-Black.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Frutiger/FrutigerLTStd-Black.woff2") format("woff2"), url("fonts/Frutiger/FrutigerLTStd-Black.woff") format("woff"), url("fonts/Frutiger/FrutigerLTStd-Black.ttf") format("truetype"), url("fonts/Frutiger/FrutigerLTStd-Black.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Frutiger';
+  src: url("fonts/Frutiger/FrutigerLTStd-UltraBlack.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Frutiger/FrutigerLTStd-UltraBlack.woff2") format("woff2"), url("fonts/Frutiger/FrutigerLTStd-UltraBlack.woff") format("woff"), url("fonts/Frutiger/FrutigerLTStd-UltraBlack.ttf") format("truetype"), url("fonts/Frutiger/FrutigerLTStd-UltraBlack.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: 1000;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Frutiger";
+  font-weight: 1000;
   font-style: normal;
   font-size: 3.4rem;
 }
