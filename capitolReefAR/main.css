@@ -9,11 +9,22 @@
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'EBGaramond';
+    src: url('fonts/EBGaramond-Regular/EBGaramond-Regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/EBGaramond-Regular/EBGaramond-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/EBGaramond-Regular/EBGaramond-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/EBGaramond-Regular/EBGaramond-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/EBGaramond-Regular/EBGaramond-Regular.svg') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
   display: flex;
   justify-content: center;
 }
-div.nav {
+/* div.nav {
   position: fixed;
   bottom: 1rem;
   margin: 0.5rem 0.5rem;
@@ -50,13 +61,13 @@ p.nav {
   font-family: "Montserrat", sans-serif;
   margin: 0rem 0rem 0rem 0rem;
   text-align: center;
-}
+} */
+
 div.contentContainer {
   width: 100%;
   max-width: 680px;
   margin-bottom: 120px;
 }
-
 
 div.header {
   display: flex;
@@ -78,12 +89,11 @@ model-viewer {
   height: 600px;
   margin: 0 auto;
 }
+
 button.arButton {
   color: #fff;
   border: none;
   font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
   position: absolute;
   bottom: 1rem;
   border-radius: 4px;
@@ -132,8 +142,8 @@ h3 {
   color: #000;
 }
 p.body {
-  font-family: "EB Garamond", sans-serif;
-  font-size: 1.2rem;
+  font-family: "EBGaramond";
+  font-size: 1.0rem;
   margin: 0.5rem 0rem 0rem 0rem;
   color: #000;
 }
