@@ -112,4 +112,12 @@ html {
   font-weight: 700;
   font-style: italic;
 }
+
+h1 {
+  color: blue;
+  font-family: 'Frutiger';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.4rem;
+}
 /*# sourceMappingURL=styles.css.map */
