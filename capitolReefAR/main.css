@@ -1,23 +1,29 @@
 @font-face {
-  font-family: 'RobotoSlab';
-    src: url('fonts/robato_slab/RobotoSlab-Regular.eot'); /* IE9 Compat Modes */
-    src: url('fonts/robato_slab/RobotoSlab-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-        url('fonts/robato_slab/RobotoSlab-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-        url('fonts/robato_slab/RobotoSlab-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-        url('fonts/robato_slab/RobotoSlab-Regular.svg') format('svg'); /* Legacy iOS */
-    font-weight: 400;
-    font-style: normal;
+  font-family: "RobotoSlab";
+  src: url("fonts/robato_slab/RobotoSlab-Regular.eot"); /* IE9 Compat Modes */
+  src: url("fonts/robato_slab/RobotoSlab-Regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/robato_slab/RobotoSlab-Regular.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("fonts/robato_slab/RobotoSlab-Regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/robato_slab/RobotoSlab-Regular.svg")
+      format("svg"); /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'EBGaramond';
-    src: url('fonts/EBGaramond-Regular/EBGaramond-Regular.eot'); /* IE9 Compat Modes */
-    src: url('fonts/EBGaramond-Regular/EBGaramond-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-        url('fonts/EBGaramond-Regular/EBGaramond-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-        url('fonts/EBGaramond-Regular/EBGaramond-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-        url('fonts/EBGaramond-Regular/EBGaramond-Regular.svg') format('svg'); /* Legacy iOS */
-    font-weight: 400;
-    font-style: normal;
+  font-family: "EBGaramond";
+  src: url("fonts/EBGaramond-Regular/EBGaramond-Regular.eot"); /* IE9 Compat Modes */
+  src: url("fonts/EBGaramond-Regular/EBGaramond-Regular.woff2") format("woff2"),
+    /* Super Modern Browsers */
+      url("fonts/EBGaramond-Regular/EBGaramond-Regular.woff") format("woff"),
+    /* Pretty Modern Browsers */
+      url("fonts/EBGaramond-Regular/EBGaramond-Regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("fonts/EBGaramond-Regular/EBGaramond-Regular.svg") format("svg"); /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -74,7 +80,7 @@ div.header {
   padding: 1rem 0.5rem;
 }
 h1 {
-  font-family: 'RobotoSlab';
+  font-family: "RobotoSlab";
   margin: 0px;
   color: #000;
 }
@@ -143,7 +149,7 @@ h3 {
 }
 p.body {
   font-family: "EBGaramond";
-  font-size: 1.0rem;
+  font-size: 1rem;
   margin: 0.5rem 0rem 0rem 0rem;
   color: #000;
 }
