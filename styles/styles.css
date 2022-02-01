@@ -72,4 +72,44 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
+
+@font-face {
+  font-family: 'Frutiger';
+  src: url("fonts/Frutiger/FrutigerLTStd-Roman.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Frutiger/FrutigerLTStd-Roman.woff2") format("woff2"), url("fonts/Frutiger/FrutigerLTStd-Roman.woff") format("woff"), url("fonts/Frutiger/FrutigerLTStd-Roman.ttf") format("truetype"), url("fonts/Frutiger/FrutigerLTStd-Roman.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Frutiger';
+  src: url("fonts/Frutiger/FrutigerLTStd-Italic.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Frutiger/FrutigerLTStd-Italic.woff2") format("woff2"), url("fonts/Frutiger/FrutigerLTStd-Italic.woff") format("woff"), url("fonts/Frutiger/FrutigerLTStd-Italic.ttf") format("truetype"), url("fonts/Frutiger/FrutigerLTStd-Italic.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Frutiger';
+  src: url("fonts/Frutiger/FrutigerLTStd-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Frutiger/FrutigerLTStd-Bold.woff2") format("woff2"), url("fonts/Frutiger/FrutigerLTStd-Bold.woff") format("woff"), url("fonts/Frutiger/FrutigerLTStd-Bold.ttf") format("truetype"), url("fonts/Frutiger/FrutigerLTStd-Bold.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Frutiger';
+  src: url("fonts/Frutiger/FrutigerLTStd-BoldItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Frutiger/FrutigerLTStd-BoldItalic.woff2") format("woff2"), url("fonts/Frutiger/FrutigerLTStd-BoldItalic.woff") format("woff"), url("fonts/Frutiger/FrutigerLTStd-BoldItalic.ttf") format("truetype"), url("fonts/Frutiger/FrutigerLTStd-BoldItalic.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: 700;
+  font-style: italic;
+}
 /*# sourceMappingURL=styles.css.map */
