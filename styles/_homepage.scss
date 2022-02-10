@@ -4,11 +4,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.6)
-  ), url(../images/ranch_images/plesant_creek_canyon.jpg) no-repeat
-    center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url(../images/ranch_images/plesant_creek_canyon.jpg) no-repeat center;
   background-size: cover;
   height: 350px;
   color: $white;
@@ -34,4 +31,21 @@
   }
 }
 
-
+#home-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 2rem;
+  .nav-tile {
+      max-width: 500px;
+      margin: 0rem 2rem 2rem 2rem;
+      h2{
+        font-family: "Frutiger";
+        font-weight: 100;
+        font-style: normal;
+        font-size: 2.4rem;
+        padding: 1rem;
+      }
+  }
+}
