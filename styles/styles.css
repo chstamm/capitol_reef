@@ -165,7 +165,7 @@ body {
   margin: auto;
 }
 
-header {
+#home-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,27 +173,40 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: url(../images/ranch_images/plesant_creek_canyon.jpg) no-repeat center;
-  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.6))), url(../images/ranch_images/plesant_creek_canyon.jpg) no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../images/ranch_images/plesant_creek_canyon.jpg) no-repeat center;
+  background-size: cover;
+  height: 350px;
+  color: #F5F5F5;
 }
 
-header h2 {
+#home-header .scrim {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+#home-header .scrim h2 {
   font-family: "Frutiger";
   font-weight: 100;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 2.4rem;
   margin-top: 14rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.3rem;
 }
 
-header h1 {
+#home-header .scrim h1 {
   font-family: "Frutiger";
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
   font-size: 6.4rem;
 }
