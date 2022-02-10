@@ -1,10 +1,25 @@
 // Make work with widths 320px and 500px for mobile. May need to deail with px density. May make desktop versions just in case.
 
-
-h1 {
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/ranch_images/plesant_creek_canyon.jpg) no-repeat center;
+  height: 300px;
+  
+  h2{
+    
     font-family: "Frutiger";
     font-weight: 100;
     font-style: normal;
-    font-size: 3.4rem;
+    font-size: 3rem;
+    margin-top: 14rem;
+  }
+  h1 {
+    font-family: "Frutiger";
+    font-weight: 100;
+    font-style: normal;
+    font-size: 6.4rem;
+  }
 }
-
