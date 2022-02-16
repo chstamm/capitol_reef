@@ -176,8 +176,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.6))), url(../images/ranch_images/plesant_creek_canyon.jpg) no-repeat center;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../images/ranch_images/plesant_creek_canyon.jpg) no-repeat center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7))), url(../images/home-header-img.jpg) no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../images/home-header-img.jpg) no-repeat center;
   background-size: cover;
   height: 350px;
   color: #F5F5F5;
@@ -199,14 +199,14 @@ body {
   font-weight: 100;
   font-style: normal;
   font-size: 2.4rem;
-  margin-top: 14rem;
+  margin-top: 20rem;
   margin-bottom: 1rem;
   letter-spacing: 0.3rem;
 }
 
 #home-header .scrim h1 {
   font-family: "Frutiger";
-  font-weight: 400;
+  font-weight: 100;
   font-style: normal;
   font-size: 6.4rem;
 }
