@@ -1,0 +1,34 @@
+#wpf-about-wrapper {
+    font-family: "Frutiger";
+    header {
+        color: $white;
+        background-color: $black;
+        height: 70px;
+        padding-top: 2.5rem;
+        #link{
+            font-size: 3rem;
+            padding-left: 2rem;
+            position: absolute;
+            a {
+                font-family: "Frutiger";
+                font-weight: 100;
+            }
+        }
+        #title {
+            font-size: 2.4rem;
+            text-align: center;
+            h2 {
+                font-family: "Frutiger";
+                font-weight: 100;
+            }
+        }
+    }
+    #wpf-para {
+        margin: 1.5rem;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        text-align: justify;
+    
+    }
+
+}
