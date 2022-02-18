@@ -4,8 +4,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.7)),
-    url(../images/home-header-img.jpg) no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url(../images/ranch_images/plesant_creek_canyon.jpg) no-repeat center;
   background-size: cover;
   height: 350px;
   color: $white;
@@ -18,13 +18,13 @@
       font-weight: 100;
       font-style: normal;
       font-size: 2.4rem;
-      margin-top: 20rem;
+      margin-top: 14rem;
       margin-bottom: 1rem;
       letter-spacing: 0.3rem;
     }
     h1 {
       font-family: "Frutiger";
-      font-weight: 100;
+      font-weight: 400;
       font-style: normal;
       font-size: 6.4rem;
     }

@@ -176,8 +176,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7))), url(../images/home-header-img.jpg) no-repeat center;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../images/home-header-img.jpg) no-repeat center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.6))), url(../images/ranch_images/plesant_creek_canyon.jpg) no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../images/ranch_images/plesant_creek_canyon.jpg) no-repeat center;
   background-size: cover;
   height: 350px;
   color: #F5F5F5;
@@ -199,14 +199,14 @@ body {
   font-weight: 100;
   font-style: normal;
   font-size: 2.4rem;
-  margin-top: 20rem;
+  margin-top: 14rem;
   margin-bottom: 1rem;
   letter-spacing: 0.3rem;
 }
 
 #home-header .scrim h1 {
   font-family: "Frutiger";
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
   font-size: 6.4rem;
 }
@@ -236,6 +236,7 @@ body {
   font-size: 2.4rem;
   padding: 1rem;
 }
+<<<<<<< HEAD
 
 .page-wrapper-2 {
   background: url(../images/pocket_fold_images/pocket_image1.jpg) no-repeat center center fixed;
@@ -377,4 +378,6 @@ body {
   line-height: 1.8rem;
   text-align: justify;
 }
+=======
+>>>>>>> 2a6e5ff9658dcb1a69fa1a4a7a46d5e2c35d7c65
 /*# sourceMappingURL=styles.css.map */
