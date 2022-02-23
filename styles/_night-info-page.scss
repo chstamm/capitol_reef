@@ -1,30 +1,58 @@
 #night-info-wrapper {
-    background-color: $black;
-        color: $white;
-        height: 100vh;
-    header {
-        height: 70px;
-        padding-top: 2.5rem;
-        
-        #link {
-          font-size: 3rem;
-          padding-left: 2rem;
-          position: absolute;
-          a {
-            font-family: "Frutiger";
-            font-weight: 100;
-          }
-        }
-        #title {
-          font-size: 2.4rem;
-          text-align: center;
-          h2 {
-            font-size: 2.5rem;
-            font-family: "Frutiger";
-          font-weight: 100;
-          
-          }
-        }
-      }
+  background-color: $black;
+  color: $white;
+  height: 100vh;
+  header {
+    height: 70px;
+    padding-top: 2.5rem;
 
+    #link {
+      font-size: 3rem;
+      padding-left: 2rem;
+      position: absolute;
+      a {
+        font-family: "Frutiger";
+        font-weight: 100;
+      }
+    }
+    #title {
+      font-size: 2.4rem;
+      text-align: center;
+      h2 {
+        font-size: 2.5rem;
+        font-family: "Frutiger";
+        font-weight: 100;
+      }
+    }
+  }
+  #images {
+    background-color: $black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1rem;
+    figure {
+      max-width: 350px;
+      margin: 1rem;
+    }
+  }
+  #para {
+    background-color: $black;
+    font-family: "Frutiger";
+    padding-bottom: 1.5rem;
+    h2 {
+      font-size: 2.4rem;
+      font-family: "Frutiger";
+      font-size: 100;
+      padding-top: 1rem;
+      text-align: center;
+    }
+    p {
+      margin: 2rem;
+      font-size: 1.8rem;
+      line-height: 2.4rem;
+      font-family: "Frutiger";
+      font-weight: 100;
+    }
+  }
 }
