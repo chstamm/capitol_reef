@@ -1,0 +1,25 @@
+.back_button{
+    font-family: "Frutiger";
+    padding: 2rem;
+    font-size: 2rem;
+}
+#oops{
+    margin-top: 5rem;
+    font-family: "Frutiger";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h1 {
+        font-size: 10rem;
+    }
+    h2 {
+        font-family: "Frutiger";
+        font-weight: 100;
+        font-size: 3.6rem;
+        margin: 2rem;
+    }
+    img {
+        max-width: 400px;
+    }
+}
