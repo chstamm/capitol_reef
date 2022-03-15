@@ -9,6 +9,12 @@
   height: 100vh;
 }
 
+#night-sky-intro {
+  background: url(../images/night-sky-route-page-img.jpeg)
+    no-repeat center center fixed;
+  height: 100vh;
+}
+
 .route-page {
   nav {
     margin: 2rem;
@@ -17,10 +23,17 @@
     font-weight: 100;
     color: lighten($black, 10%);
   }
+  .night-back-button {
+    color: $white;
+  }
   #flex-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    #night-header {
+      color: $white;
+    }
+
     header {
       display: flex;
       flex-direction: column;

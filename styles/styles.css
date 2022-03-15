@@ -247,12 +247,21 @@ body {
   height: 100vh;
 }
 
+#night-sky-intro {
+  background: url(../images/night-sky-route-page-img.jpeg) no-repeat center center fixed;
+  height: 100vh;
+}
+
 .route-page nav {
   margin: 2rem;
   font-size: 3rem;
   font-family: "Frutiger";
   font-weight: 100;
   color: #383535;
+}
+
+.route-page .night-back-button {
+  color: #F5F5F5;
 }
 
 .route-page #flex-wrapper {
@@ -266,6 +275,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.route-page #flex-wrapper #night-header {
+  color: #F5F5F5;
 }
 
 .route-page #flex-wrapper header {
