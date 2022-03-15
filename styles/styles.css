@@ -596,4 +596,29 @@ body {
 #oops img {
   max-width: 400px;
 }
+
+.carousel-wrapper {
+  font-family: 'Frutiger';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel-wrapper .slide {
+  margin: 2rem;
+  max-width: 400px;
+}
+
+.carousel-wrapper .slide h1 {
+  font-family: 'Frutiger';
+  font-weight: 100;
+  font-size: 3.6rem;
+}
 /*# sourceMappingURL=styles.css.map */
