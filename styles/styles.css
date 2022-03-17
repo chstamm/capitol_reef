@@ -452,7 +452,7 @@ body {
   color: #F5F5F5;
   background-color: #1e1c1c;
   height: 70px;
-  padding-top: 2rem;
+  padding-top: 2.5rem;
 }
 
 #VR-tour-header #link {
@@ -490,6 +490,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 #fixed-wrapper-vr .nav-buttons {
