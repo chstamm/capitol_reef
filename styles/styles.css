@@ -252,6 +252,11 @@ body {
   height: 100vh;
 }
 
+.route-page {
+  overflow: hidden;
+  /* disable scrollbars */
+}
+
 .route-page nav {
   margin: 2rem;
   font-size: 3rem;

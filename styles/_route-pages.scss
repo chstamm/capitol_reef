@@ -16,6 +16,7 @@
 }
 
 .route-page {
+  overflow: hidden; /* disable scrollbars */
   nav {
     margin: 2rem;
     font-size: 3rem;
