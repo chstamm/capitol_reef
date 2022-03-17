@@ -55,10 +55,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
     .nav-buttons {
       display: flex;
-     
+    //   bottom: 0;
+    //   position: fixed;
       a {
         display: block;
         font-family: "frutiger";
