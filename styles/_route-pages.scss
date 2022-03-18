@@ -4,15 +4,26 @@
   height: 100vh;
 }
 .page-wrapper-1 {
-  background: url(../images/ranch_images/plesant_creek_canyon.jpg)
-    no-repeat center center fixed;
+  background: url(../images/ranch_images/plesant_creek_canyon.jpg) no-repeat
+    center center fixed;
   height: 100vh;
 }
 
 #night-sky-intro {
-  background: url(../images/night-sky-route-page-img.jpeg)
-    no-repeat center center fixed;
+  background: url(../images/night-sky-route-page-img.jpeg) no-repeat center
+    center fixed;
   height: 100vh;
+}
+
+.page-wrapper-gorge {
+  background-color: black;
+  height: 100vh;
+  overflow: hidden;
+  .route-page {
+    background: url(../images/Wpf_Route_Img.jpg) no-repeat center center fixed;
+    height: 100vh;
+    overflow: hidden;
+  }
 }
 
 .route-page {
