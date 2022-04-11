@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Guest Ranch</title>
   <script type="module" src="js/model-viewer.js"></script>
-  <link rel="stylesheet" href="main.css" />
+<!-- <link rel="stylesheet" href="main.css" /> -->
+<link rel="stylesheet" href="../styles/styles.css" />
   <link href="fonts/material-icons.css" rel="stylesheet" />
   <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
   <!-- <link
@@ -14,13 +15,16 @@
 </head>
 
 <body>
+  <div id="AR-wrapper">
   <div class="contentContainer">
-    <div class="back_button">
-      <a href="../article_pages/sleeping-rainbow-ranch.html"> < Back</a>
-    </div>
-    <div class="header">
-      <h1>Sleeping Rainbow Ranch</h1>
-    </div>
+    <header>
+      <div id="link">
+        <a href="../pages/waterpocket-fold.html"><</a>
+      </div>
+      <div id="title">
+        <h2>Sleeping Rainbow Ranch</h2>
+      </div>
+    </header>
     <div class="modelViewer">
       <model-viewer src="assets/ranch.glb" camera-controls autoplay auto-rotate ar ios-src="assets/ranch.usdz">
         <button class="arButton" slot="ar-button">
@@ -35,7 +39,7 @@
       </model-viewer>
     </div>
     <div class="textContainer">
-      <h2>Guest Ranch</h2>
+      <h3>Guest Ranch</h3>
       <p class="body">
         Sleeping Rainbow Ranch included a small motel unit with a spectacular,
         knoll-top view of the Henry Mountains, a log lodge, a house trailer,
@@ -63,6 +67,7 @@
       </a>
     </div>
   </div>
+</div>
 </body>
 
 </html>
