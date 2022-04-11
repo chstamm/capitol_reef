@@ -31,44 +31,6 @@ body {
   justify-content: center;
   overflow: hidden;
 }
-/* div.nav {
-  position: fixed;
-  bottom: 1rem;
-  margin: 0.5rem 0.5rem;
-  display: flex;
-  justify-content: space-evenly;
-  background-color: white;
-  font-family: "Montserrat", sans-serif;
-  color: black;
-  border-radius: 1rem;
-  box-shadow: 0px 0px 16px rgba(55, 130, 171, 0.2);
-  width: 90%;
-  z-index: 50;
-  max-width: 680px
-}
-div.navItem {
-  width: 80px;
-  padding: 1rem 0.8rem;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-}
-div.navIcon {
-  padding-bottom: 0.25rem;
-}
-.isActive {
-  color: #F6B14D;
-}
-.isInactive {
-  color: #aaa;
-}
-p.nav {
-  font-size: 0.8rem;
-  font-family: "Montserrat", sans-serif;
-  margin: 0rem 0rem 0rem 0rem;
-  text-align: center;
-} */
 
 div.contentContainer {
   width: 100%;

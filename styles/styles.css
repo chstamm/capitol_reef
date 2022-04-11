@@ -759,4 +759,84 @@ body {
   margin-top: 1.5rem;
   font-size: 1.4rem;
 }
+
+#vid-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+#vid-wrapper .contentContainer {
+  width: 100%;
+  max-width: 680px;
+  margin-bottom: 120px;
+}
+
+#vid-wrapper .contentContainer header {
+  color: #F5F5F5;
+  background-color: #1e1c1c;
+  height: 70px;
+  padding-top: 2.5rem;
+}
+
+#vid-wrapper .contentContainer header #link {
+  font-size: 3rem;
+  padding-left: 2rem;
+  position: absolute;
+}
+
+#vid-wrapper .contentContainer header #link a {
+  font-family: "Frutiger";
+  font-weight: 100;
+}
+
+#vid-wrapper .contentContainer header #title {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+#vid-wrapper .contentContainer header #title h2 {
+  font-family: "Frutiger";
+  font-weight: 100;
+}
+
+#vid-wrapper .contentContainer .modelViewer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0.5rem;
+}
+
+#vid-wrapper .contentContainer .modelViewer iframe {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#vid-wrapper .contentContainer .textContainer {
+  margin: 0.5rem 0 0 0;
+}
+
+#vid-wrapper .contentContainer .textContainer .body {
+  margin: 1.5rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-family: "Frutiger";
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 600px) {
+  #vid-wrapper model-viewer {
+    height: 350px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

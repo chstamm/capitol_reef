@@ -1,37 +1,47 @@
 <html land="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ranch Video</title>
+    <script type="module" src="js/model-viewer.js"></script>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <!-- <link rel="stylesheet" href="main.css" /> -->
+    <link href="fonts/material-icons.css" rel="stylesheet" />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Roboto+Slab:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ranch Video</title>
-  <script type="module" src="js/model-viewer.js"></script>
-  <link rel="stylesheet" href="main.css" />
-  <link href="fonts/material-icons.css" rel="stylesheet" />
-  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Roboto+Slab:wght@200;400;600;700&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <div class="contentContainer">
-    <div class="back_button">
-      <a href="../pages/ranch.html"> < Back</a>
+  <body>
+    <div id="vid-wrapper">
+      <div class="contentContainer">
+        <header>
+          <div id="link">
+            <a href="../pages/ranch.html"><</a>
+          </div>
+          <div id="title">
+            <h2>History Video</h2>
+          </div>
+        </header>
+        <div class="modelViewer">
+          <iframe
+            width="560"
+            height="315"
+            src="./assets/Sleeping Rainbow Ranch Final Doc.mp4"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="textContainer">
+          <p class="body">
+            This video is about Lurt and Alice Knee, and the Sleeping Rainbow
+            Ranch as a guest ranch.
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="header">
-      <h1>Sleeping Raibow Ranch History</h1>
-    </div>
-    <div class="modelViewer">
-      <iframe width="560" height="315" src="./assets/Sleeping Rainbow Ranch Final Doc.mp4"
-        frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-    <div class="textContainer">
-      <p class="body">
-        This video is about Lurt and Alice Knee, and the Sleeping Rainbow Ranch as a guest ranch.
-      </p>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
