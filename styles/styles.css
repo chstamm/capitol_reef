@@ -989,6 +989,9 @@ body {
 
 #AR-wrapper .contentContainer .navigationButtons p {
   font-family: "Frutiger";
-  margin: 0.1rem 0.2rem 0.2rem 0.2rem;
+  font-weight: 600;
+  padding-top: .15rem;
+  font-size: 1.2rem;
+  margin: 0.2rem;
 }
 /*# sourceMappingURL=styles.css.map */

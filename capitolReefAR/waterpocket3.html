@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Erosion</title>
     <script type="module" src="js/model-viewer.js"></script>
-    <link rel="stylesheet" href="main.css" />
+    <!-- <link rel="stylesheet" href="main.css" /> -->
+  <link rel="stylesheet" href="../styles/styles.css" />
     <link href="fonts/material-icons.css" rel="stylesheet" />
   <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
     <!-- <link
@@ -14,13 +15,16 @@
 </head>
 
 <body>
+    <div id="AR-wrapper">
     <div class="contentContainer">
-        <div class="back_button">
-            <a href="../pages/waterpocket-fold.html"> < Back</a>
-          </div>
-        <div class="header">
-            <h1>The Waterpocket Fold</h1>
-        </div>
+        <header>
+            <div id="link">
+              <a href="../pages/waterpocket-fold.html"><</a>
+            </div>
+            <div id="title">
+              <h2>Waterpocket Fold</h2>
+            </div>
+          </header>
         <div class="modelViewer">
             <model-viewer src="assets/waterpocket3.glb" camera-controls autoplay auto-rotate ar
                 ios-src="assets/waterpocket3.usdz">
@@ -64,6 +68,7 @@
             </a>
         </div>
     </div>
+</div>
 </body>
 
 </html>
