@@ -883,6 +883,12 @@ body {
   font-weight: 100;
 }
 
+#AR-wrapper .contentContainer model-viewer {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+
 #AR-wrapper .contentContainer .modelViewer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -922,12 +928,6 @@ body {
 #AR-wrapper .contentContainer .modelViewer div.arButton p {
   font-family: "Frutiger";
   margin: 0.1rem 0.2rem 0.2rem 0.2rem;
-}
-
-#AR-wrapper .contentContainer model-viewer {
-  width: 100%;
-  height: 400px;
-  margin: 0 auto;
 }
 
 #AR-wrapper .contentContainer .textContainer {
