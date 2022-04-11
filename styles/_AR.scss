@@ -1,0 +1,85 @@
+#AR-wrapper {
+  display: flex;
+  justify-content: center;
+  .contentContainer {
+    @include header;
+    width: 100%;
+    max-width: 680px;
+    margin-bottom: 120px;
+    .modelViewer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0.5rem;
+      button.arButton {
+        color: #fff;
+        border: none;
+        font-size: 1rem;
+        position: absolute;
+        bottom: 1rem;
+        border-radius: 4px;
+        background-color: #f6b24d;
+       
+      }
+      div.arButton {
+        padding: 0.5rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+          font-family: "Frutiger";
+          margin: 0.1rem 0.2rem 0.2rem 0.2rem;
+        }
+      }
+    }
+    model-viewer {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+      }
+    .textContainer {
+      margin: 0.5rem 0 0 0;
+      h3 {
+        font-family: "Frutiger";
+        font-weight: 400;
+        margin: 1.5rem;
+        font-size: 2.4rem;
+      }
+      .body {
+        margin: 1.5rem;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        font-family: "Frutiger";
+        font-weight: 100;
+      }
+      .caption {
+        margin: 1.5rem;
+        font-size: 1.4rem;
+        line-height: 2.0rem;
+        font-family: "Frutiger";
+        font-weight: 600;
+        a {
+            color: #f6b24d; 
+        }
+      }
+    }
+    .navigationButtons {
+        display: flex;
+        justify-content: space-between;
+        .navigationButton {
+            border: solid 2px #4d91f6;
+            border-radius: 8px;
+            padding: 0.4rem 1rem;
+            margin: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #4d91f6;
+          }
+          p {
+            font-family: "Frutiger";
+            margin: 0.1rem 0.2rem 0.2rem 0.2rem;
+          }
+    }
+  }
+}
