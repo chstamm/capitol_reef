@@ -254,14 +254,31 @@ body {
 
 .page-wrapper-gorge {
   background-color: black;
-  height: 100vh;
-  overflow: hidden;
 }
 
 .page-wrapper-gorge .route-page {
   background: url(../images/Wpf_Route_Img.jpg) no-repeat center center fixed;
   height: 100vh;
-  overflow: hidden;
+}
+
+.page-wrapper-gorge .route-page .cg-nav-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: 0;
+  position: fixed;
+  background-color: #1e1c1c;
+  width: 100%;
+}
+
+.page-wrapper-gorge .route-page .cg-nav-buttons a {
+  display: block;
+  font-family: "frutiger";
+  background-color: #F5F5F5;
+  font-size: 2rem;
+  padding: 1.5rem 3rem 1rem 3rem;
+  border-radius: 15px 15px 15px 15px;
+  margin: 2rem;
 }
 
 .route-page {
