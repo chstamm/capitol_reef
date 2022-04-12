@@ -277,6 +277,11 @@ body {
   color: #383535;
 }
 
+.route-page nav img {
+  max-width: 24px;
+  height: auto;
+}
+
 .route-page .night-back-button {
   color: #F5F5F5;
 }
@@ -377,20 +382,20 @@ body {
 }
 
 #night-sky-page-wrapper header {
+  color: #F5F5F5;
+  background-color: #1e1c1c;
   height: 70px;
   padding-top: 2.5rem;
-  margin-bottom: 5rem;
 }
 
 #night-sky-page-wrapper header #link {
-  font-size: 3rem;
   padding-left: 2rem;
   position: absolute;
 }
 
-#night-sky-page-wrapper header #link a {
-  font-family: "Frutiger";
-  font-weight: 100;
+#night-sky-page-wrapper header #link a img {
+  max-width: 24px;
+  height: auto;
 }
 
 #night-sky-page-wrapper header #title {
@@ -399,14 +404,8 @@ body {
 }
 
 #night-sky-page-wrapper header #title h2 {
-  font-size: 2.5rem;
   font-family: "Frutiger";
   font-weight: 100;
-  padding-bottom: .5rem;
-}
-
-#night-sky-page-wrapper header #title h1 {
-  font-size: 3.6rem;
 }
 
 #night-sky-page-wrapper #night-tiles {
@@ -445,14 +444,13 @@ body {
 }
 
 #tour-wrapper header #link {
-  font-size: 3rem;
   padding-left: 2rem;
   position: absolute;
 }
 
-#tour-wrapper header #link a {
-  font-family: "Frutiger";
-  font-weight: 100;
+#tour-wrapper header #link a img {
+  max-width: 24px;
+  height: auto;
 }
 
 #tour-wrapper header #title {
@@ -479,9 +477,9 @@ body {
   position: absolute;
 }
 
-#VR-tour-header #link a {
-  font-family: "Frutiger";
-  font-weight: 100;
+#VR-tour-header #link a img {
+  max-width: 24px;
+  height: auto;
 }
 
 #VR-tour-header #title {
@@ -539,14 +537,13 @@ body {
 }
 
 #wpf-about-wrapper header #link {
-  font-size: 3rem;
   padding-left: 2rem;
   position: absolute;
 }
 
-#wpf-about-wrapper header #link a {
-  font-family: "Frutiger";
-  font-weight: 100;
+#wpf-about-wrapper header #link a img {
+  max-width: 24px;
+  height: auto;
 }
 
 #wpf-about-wrapper header #title {
@@ -573,19 +570,20 @@ body {
 }
 
 #night-info-wrapper header {
+  color: #F5F5F5;
+  background-color: #1e1c1c;
   height: 70px;
   padding-top: 2.5rem;
 }
 
 #night-info-wrapper header #link {
-  font-size: 3rem;
   padding-left: 2rem;
   position: absolute;
 }
 
-#night-info-wrapper header #link a {
-  font-family: "Frutiger";
-  font-weight: 100;
+#night-info-wrapper header #link a img {
+  max-width: 24px;
+  height: auto;
 }
 
 #night-info-wrapper header #title {
@@ -594,7 +592,6 @@ body {
 }
 
 #night-info-wrapper header #title h2 {
-  font-size: 2.5rem;
   font-family: "Frutiger";
   font-weight: 100;
 }
@@ -684,14 +681,13 @@ body {
 }
 
 .timeline-wrapper header #link {
-  font-size: 3rem;
   padding-left: 2rem;
   position: absolute;
 }
 
-.timeline-wrapper header #link a {
-  font-family: "Frutiger";
-  font-weight: 100;
+.timeline-wrapper header #link a img {
+  max-width: 24px;
+  height: auto;
 }
 
 .timeline-wrapper header #title {
@@ -784,14 +780,13 @@ body {
 }
 
 #vid-wrapper .contentContainer header #link {
-  font-size: 3rem;
   padding-left: 2rem;
   position: absolute;
 }
 
-#vid-wrapper .contentContainer header #link a {
-  font-family: "Frutiger";
-  font-weight: 100;
+#vid-wrapper .contentContainer header #link a img {
+  max-width: 24px;
+  height: auto;
 }
 
 #vid-wrapper .contentContainer header #title {
@@ -863,14 +858,13 @@ body {
 }
 
 #AR-wrapper .contentContainer header #link {
-  font-size: 3rem;
   padding-left: 2rem;
   position: absolute;
 }
 
-#AR-wrapper .contentContainer header #link a {
-  font-family: "Frutiger";
-  font-weight: 100;
+#AR-wrapper .contentContainer header #link a img {
+  max-width: 24px;
+  height: auto;
 }
 
 #AR-wrapper .contentContainer header #title {

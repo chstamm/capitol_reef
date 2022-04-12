@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cassidy Arch Timelapse Video</title>
   <script type="module" src="../../capitolReefAR/js/model-viewer.js"></script>
-  <link rel="stylesheet" href="../../capitolReefAR/main.css" />
+  <link rel="stylesheet" href="../../styles/styles.css" />
   <link href="fonts/material-icons.css" rel="stylesheet" />
   <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
   <link
@@ -14,17 +14,31 @@
 </head>
 
 <body>
-  <div class="contentContainer">
-    <div class="back_button">
-      <a href="../../VR-Tours/cassidy_arch_tour/index.html"> < Back</a>
-    </div>
-    <div class="header">
-      <h1>Cassidy Arch Timelapse</h1>
-    </div>
-    <div class="modelViewer">
-      <iframe width="560" height="315" src="../../videos/cassidy_arch_timelapse.mp4"
-        frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+  <div id="vid-wrapper">
+    <div class="contentContainer">
+      <header>
+        <div id="link">
+          <a href="../../VR-Tours/cassidy_arch_tour/index.html">
+            <img
+              src="../../images/outline_arrow_back_ios_white_36dp.png"
+              alt="back"
+            />
+          </a>
+        </div>
+        <div id="title">
+          <h2>Cassidy Arch Timelapse</h2>
+        </div>
+      </header>
+      <div class="modelViewer">
+        <iframe
+          width="560"
+          height="310"
+          src="../../videos/cassidy_arch_timelapse.mp4"
+          frameborder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
   </div>
 </body>

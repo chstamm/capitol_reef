@@ -5,12 +5,13 @@
         height: 70px;
         padding-top: 2.5rem;
         #link{
-            font-size: 3rem;
             padding-left: 2rem;
             position: absolute;
             a {
-                font-family: "Frutiger";
-                font-weight: 100;
+                img {
+                    max-width: 24px;
+                    height: auto;
+                }
             }
         }
         #title {

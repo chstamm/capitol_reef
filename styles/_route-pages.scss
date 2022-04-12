@@ -34,6 +34,10 @@
     font-family: "Frutiger";
     font-weight: 100;
     color: lighten($black, 10%);
+    img {
+      max-width: 24px;
+      height: auto;
+    }
   }
   .night-back-button {
     color: $white;
