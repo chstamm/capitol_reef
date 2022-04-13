@@ -7,7 +7,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
     url(../images/Hero_Img_Main_Page.jpg) no-repeat center;
   background-size: cover;
-  height: 350px;
+  height: 220px;
   color: $white;
   .scrim {
     display: flex;
@@ -17,8 +17,8 @@
       font-family: "Frutiger";
       font-weight: 100;
       font-style: normal;
-      font-size: 2.4rem;
-      margin-top: 14rem;
+      font-size: 2.5rem;
+      margin-top: 7rem;
       margin-bottom: 1rem;
       letter-spacing: 0.3rem;
     }
@@ -26,7 +26,7 @@
       font-family: "Frutiger";
       font-weight: 400;
       font-style: normal;
-      font-size: 6.4rem;
+      font-size: 4rem;
     }
   }
 }
@@ -44,7 +44,7 @@
         font-family: "Frutiger";
         font-weight: 100;
         font-style: normal;
-        font-size: 2.4rem;
+        font-size: 2rem;
         padding: 1rem;
       }
   }
