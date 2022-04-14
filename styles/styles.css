@@ -852,10 +852,6 @@ body {
   font-weight: 100;
 }
 
-#vid-wrapper video {
-  margin-top: 2rem;
-}
-
 @media only screen and (max-width: 600px) {
   #vid-wrapper model-viewer {
     height: 350px;
