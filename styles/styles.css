@@ -260,19 +260,22 @@ body {
 .page-wrapper-gorge .route-page {
   background: url(../images/Wpf_Route_Img.jpg) no-repeat center center fixed;
   height: 100vh;
-}
-
-.page-wrapper-gorge .route-page .cg-nav-buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  bottom: 0;
-  position: fixed;
-  background-color: #1e1c1c;
-  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.page-wrapper-gorge .route-page .cg-nav-buttons a {
+.page-wrapper-gorge .route-page a {
   display: block;
   font-family: "frutiger";
   background-color: #F5F5F5;
@@ -387,7 +390,7 @@ body {
   font-family: "frutiger";
   background-color: #F5F5F5;
   font-size: 2rem;
-  padding: 1.5rem 3rem 1rem 3rem;
+  padding: 1.5rem 2rem 1rem 2rem;
   border-radius: 15px 15px 15px 15px;
   margin: 2rem;
 }
@@ -540,7 +543,7 @@ body {
   background-color: #F5F5F5;
   color: #1e1c1c;
   font-size: 2rem;
-  padding: 1.5rem 3rem 1rem 3rem;
+  padding: 1.5rem 2rem 1rem 2rem;
   border-radius: 15px 15px 15px 15px;
   margin: 2rem;
 }
