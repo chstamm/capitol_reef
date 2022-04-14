@@ -836,9 +836,8 @@ body {
 }
 
 #vid-wrapper .contentContainer .modelViewer video {
-  margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  height: auto;
 }
 
 #vid-wrapper .contentContainer .textContainer {
