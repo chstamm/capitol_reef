@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.14" apprev="18105" start="node1">
+  <panorama id="node1">
+    <input levelingpitch="0" prev3url="images/IMG_8068_69_70_Realistic Panorama_o_preview_3.jpg" tile4url="images/IMG_8068_69_70_Realistic Panorama_o_4.jpg" tile2url="images/IMG_8068_69_70_Realistic Panorama_o_2.jpg" prev4url="images/IMG_8068_69_70_Realistic Panorama_o_preview_4.jpg" prev1url="images/IMG_8068_69_70_Realistic Panorama_o_preview_1.jpg" tilesize="2048" tile5url="images/IMG_8068_69_70_Realistic Panorama_o_5.jpg" prev5url="images/IMG_8068_69_70_Realistic Panorama_o_preview_5.jpg" levelingroll="0" prev0url="images/IMG_8068_69_70_Realistic Panorama_o_preview_0.jpg" tilescale="1.004883" tile1url="images/IMG_8068_69_70_Realistic Panorama_o_1.jpg" tile0url="images/IMG_8068_69_70_Realistic Panorama_o_0.jpg" tile3url="images/IMG_8068_69_70_Realistic Panorama_o_3.jpg" tilevrurl="images/IMG_8068_69_70_Realistic Panorama_ovr.jpg" prev2url="images/IMG_8068_69_70_Realistic Panorama_o_preview_2.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" pan="360" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata datetime="3/26/22 11:35 AM" customnodeid="" author="" heading="0" info="" copyright="" source="" description="" comment="" title="" tags="Location 1" longitude="" nodeid="node1" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" background="1" bordercolor="0x000000" width="180" borderalpha="1" borderradius="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot url="{node2}" description="" title="Location 2" target="" skinid="ht_node" id="Point01" pan="-83.31" tilt="1.36"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" enabled="1" softedge="0" zoomspeed="2" blendtime="1" zoomfov="20" zoomin="0" zoomoutpause="1" zoomafterinfov="90" blendcolor="0x000000" zoomout="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" speedwheel="1" simulatemass="1" rubberband="0" dblclickfullscreen="0" invertwheel="0" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" invertcontrol="1" lockedwheel="0" contextvr="1" contextfullscreen="1" lockedmouse="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelingpitch="0" prev3url="images/IMG_8086_7_8_Realistic Panorama_o_preview_3.jpg" tile4url="images/IMG_8086_7_8_Realistic Panorama_o_4.jpg" tile2url="images/IMG_8086_7_8_Realistic Panorama_o_2.jpg" prev4url="images/IMG_8086_7_8_Realistic Panorama_o_preview_4.jpg" prev1url="images/IMG_8086_7_8_Realistic Panorama_o_preview_1.jpg" tilesize="2048" tile5url="images/IMG_8086_7_8_Realistic Panorama_o_5.jpg" prev5url="images/IMG_8086_7_8_Realistic Panorama_o_preview_5.jpg" levelingroll="0" prev0url="images/IMG_8086_7_8_Realistic Panorama_o_preview_0.jpg" tilescale="1.004883" tile1url="images/IMG_8086_7_8_Realistic Panorama_o_1.jpg" tile0url="images/IMG_8086_7_8_Realistic Panorama_o_0.jpg" tile3url="images/IMG_8086_7_8_Realistic Panorama_o_3.jpg" tilevrurl="images/IMG_8086_7_8_Realistic Panorama_ovr.jpg" prev2url="images/IMG_8086_7_8_Realistic Panorama_o_preview_2.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" pan="360" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata datetime="3/26/22 11:55 AM" customnodeid="" author="" heading="0" info="" copyright="" source="" description="" comment="" title="" tags="Location 2" longitude="" nodeid="node2" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" background="1" bordercolor="0x000000" width="180" borderalpha="1" borderradius="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot url="{node1}" description="" title="Location 1" target="" skinid="ht_node" id="Point01" pan="-320.28" tilt="4.63"/>
+      <hotspot url="{node3}" description="" title="Location 3" target="" skinid="ht_node" id="Point02" pan="-135.88" tilt="3.68"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" enabled="1" softedge="0" zoomspeed="2" blendtime="1" zoomfov="20" zoomin="0" zoomoutpause="1" zoomafterinfov="90" blendcolor="0x000000" zoomout="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" speedwheel="1" simulatemass="1" rubberband="0" dblclickfullscreen="0" invertwheel="0" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" invertcontrol="1" lockedwheel="0" contextvr="1" contextfullscreen="1" lockedmouse="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelingpitch="0" prev3url="images/IMG_8104_5_6_Realistic Panorama_o_preview_3.jpg" tile4url="images/IMG_8104_5_6_Realistic Panorama_o_4.jpg" tile2url="images/IMG_8104_5_6_Realistic Panorama_o_2.jpg" prev4url="images/IMG_8104_5_6_Realistic Panorama_o_preview_4.jpg" prev1url="images/IMG_8104_5_6_Realistic Panorama_o_preview_1.jpg" tilesize="2048" tile5url="images/IMG_8104_5_6_Realistic Panorama_o_5.jpg" prev5url="images/IMG_8104_5_6_Realistic Panorama_o_preview_5.jpg" levelingroll="0" prev0url="images/IMG_8104_5_6_Realistic Panorama_o_preview_0.jpg" tilescale="1.004883" tile1url="images/IMG_8104_5_6_Realistic Panorama_o_1.jpg" tile0url="images/IMG_8104_5_6_Realistic Panorama_o_0.jpg" tile3url="images/IMG_8104_5_6_Realistic Panorama_o_3.jpg" tilevrurl="images/IMG_8104_5_6_Realistic Panorama_ovr.jpg" prev2url="images/IMG_8104_5_6_Realistic Panorama_o_preview_2.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" pan="360" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata datetime="3/26/22 12:06 PM" customnodeid="" author="" heading="0" info="" copyright="" source="" description="" comment="" title="" tags="Location 3" longitude="" nodeid="node3" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" background="1" bordercolor="0x000000" width="180" borderalpha="1" borderradius="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot url="{node3}" description="" title="Location 2" target="" skinid="ht_node" id="Point01" pan="-237.65" tilt="-10.97"/>
+      <hotspot url="{node4}" description="" title="Location 4" target="" skinid="ht_node" id="Point02" pan="-107.2" tilt="-2.88"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" enabled="1" softedge="0" zoomspeed="2" blendtime="1" zoomfov="20" zoomin="0" zoomoutpause="1" zoomafterinfov="90" blendcolor="0x000000" zoomout="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" speedwheel="1" simulatemass="1" rubberband="0" dblclickfullscreen="0" invertwheel="0" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" invertcontrol="1" lockedwheel="0" contextvr="1" contextfullscreen="1" lockedmouse="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input levelingpitch="0" prev3url="images/IMG_8122_3_4_Realistic Panorama_o_preview_3.jpg" tile4url="images/IMG_8122_3_4_Realistic Panorama_o_4.jpg" tile2url="images/IMG_8122_3_4_Realistic Panorama_o_2.jpg" prev4url="images/IMG_8122_3_4_Realistic Panorama_o_preview_4.jpg" prev1url="images/IMG_8122_3_4_Realistic Panorama_o_preview_1.jpg" tilesize="2048" tile5url="images/IMG_8122_3_4_Realistic Panorama_o_5.jpg" prev5url="images/IMG_8122_3_4_Realistic Panorama_o_preview_5.jpg" levelingroll="0" prev0url="images/IMG_8122_3_4_Realistic Panorama_o_preview_0.jpg" tilescale="1.004883" tile1url="images/IMG_8122_3_4_Realistic Panorama_o_1.jpg" tile0url="images/IMG_8122_3_4_Realistic Panorama_o_0.jpg" tile3url="images/IMG_8122_3_4_Realistic Panorama_o_3.jpg" tilevrurl="images/IMG_8122_3_4_Realistic Panorama_ovr.jpg" prev2url="images/IMG_8122_3_4_Realistic Panorama_o_preview_2.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" pan="360" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata datetime="3/26/22 12:11 PM" customnodeid="" author="" heading="0" info="" copyright="" source="" description="" comment="" title="" tags="Location 4" longitude="" nodeid="node4" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" background="1" bordercolor="0x000000" width="180" borderalpha="1" borderradius="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot url="{node3}" description="" title="Location 3" target="" skinid="ht_node" id="Point01" pan="-209.42" tilt="11.58"/>
+      <hotspot url="{node5}" description="" title="Location 5" target="" skinid="ht_node" id="Point02" pan="-64.44" tilt="7.97"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" enabled="1" softedge="0" zoomspeed="2" blendtime="1" zoomfov="20" zoomin="0" zoomoutpause="1" zoomafterinfov="90" blendcolor="0x000000" zoomout="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" speedwheel="1" simulatemass="1" rubberband="0" dblclickfullscreen="0" invertwheel="0" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" invertcontrol="1" lockedwheel="0" contextvr="1" contextfullscreen="1" lockedmouse="0"/>
+  </panorama>
+  <panorama id="node5">
+    <input levelingpitch="0" prev3url="images/IMG_8143_4_5_Realistic Panorama_o_preview_3.jpg" tile4url="images/IMG_8143_4_5_Realistic Panorama_o_4.jpg" tile2url="images/IMG_8143_4_5_Realistic Panorama_o_2.jpg" prev4url="images/IMG_8143_4_5_Realistic Panorama_o_preview_4.jpg" prev1url="images/IMG_8143_4_5_Realistic Panorama_o_preview_1.jpg" tilesize="2048" tile5url="images/IMG_8143_4_5_Realistic Panorama_o_5.jpg" prev5url="images/IMG_8143_4_5_Realistic Panorama_o_preview_5.jpg" levelingroll="0" prev0url="images/IMG_8143_4_5_Realistic Panorama_o_preview_0.jpg" tilescale="1.004883" tile1url="images/IMG_8143_4_5_Realistic Panorama_o_1.jpg" tile0url="images/IMG_8143_4_5_Realistic Panorama_o_0.jpg" tile3url="images/IMG_8143_4_5_Realistic Panorama_o_3.jpg" tilevrurl="images/IMG_8143_4_5_Realistic Panorama_ovr.jpg" prev2url="images/IMG_8143_4_5_Realistic Panorama_o_preview_2.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" pan="360" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata datetime="3/26/22 12:20 PM" customnodeid="" author="" heading="0" info="" copyright="" source="" description="" comment="" title="" tags="Location 5" longitude="" nodeid="node5" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" background="1" bordercolor="0x000000" width="180" borderalpha="1" borderradius="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot url="{node4}" description="" title="Location 4" target="" skinid="ht_node" id="Point01" pan="-261.73" tilt="-14.32"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" enabled="1" softedge="0" zoomspeed="2" blendtime="1" zoomfov="20" zoomin="0" zoomoutpause="1" zoomafterinfov="90" blendcolor="0x000000" zoomout="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" speedwheel="1" simulatemass="1" rubberband="0" dblclickfullscreen="0" invertwheel="0" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" invertcontrol="1" lockedwheel="0" contextvr="1" contextfullscreen="1" lockedmouse="0"/>
+  </panorama>
+  <masternode>
+    <userdata datetime="" customnodeid="" author="" heading="0" info="" copyright="" source="" description="" comment="" title="" tags="" longitude="" nodeid="master" latitude=""/>
+  </masternode>
+</tour>

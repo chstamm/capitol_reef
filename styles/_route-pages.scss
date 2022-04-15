@@ -4,12 +4,8 @@
   height: 100vh;
 }
 .page-wrapper-1 {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.05)
-    ),
-    url(../images/ranch_images/pleasant_creek_1.jpg) no-repeat center center
-      fixed;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.05)), url(../images/ranch_images/pleasant_creek_1.jpg) no-repeat
+    center center fixed;
   height: 100vh;
 }
 
@@ -22,24 +18,32 @@
 .page-wrapper-gorge {
   background-color: black;
   .route-page {
-    background: url(../images/Wpf_Route_Img.jpg) no-repeat center center fixed;
+    background: url(../images/Wpf_Route_Img.jpg) no-repeat center
+    center fixed;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    // .cg-nav-buttons {
+    //   display: flex;
+    //   bottom: 0;
+    //   position: fixed;
+    //   background-color: $black;
+    //   width: 100%;
 
-    a {
-      display: block;
-      font-family: "frutiger";
-      background-color: $white;
-      font-size: 2rem;
-      padding: 1.5rem 3rem 1rem 3rem;
-      border-radius: 15px 15px 15px 15px;
-      margin: 2rem;
+      a {
+        display: block;
+        font-family: "frutiger";
+        background-color: $white;
+        font-size: 2rem;
+        padding: 1.5rem 3rem 1rem 3rem;
+        border-radius: 15px 15px 15px 15px;
+        margin: 2rem;
+      }
     }
   }
-}
+
 
 .route-page {
   overflow: hidden; /* disable scrollbars */
