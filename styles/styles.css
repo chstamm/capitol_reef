@@ -789,6 +789,7 @@ body {
 }
 
 .timeline-wrapper #content-div .content {
+  background-color: rgba(255, 255, 255, 0.6);
   color: #1e1c1c;
   margin: 2rem;
   max-width: 400px;
@@ -798,11 +799,6 @@ body {
   transition: max-height 0.2s ease-out;
   text-align: justify;
   text-justify: inter-word;
-}
-
-.timeline-wrapper #content-div .content img {
-  -webkit-box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.2);
-          box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 .timeline-wrapper #content-div .content h2 {
