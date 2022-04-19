@@ -831,7 +831,7 @@ body {
 #vid-wrapper .contentContainer {
   width: 100%;
   max-width: 680px;
-  margin-bottom: 120px;
+  margin-bottom: 5rem;
 }
 
 #vid-wrapper .contentContainer header {
