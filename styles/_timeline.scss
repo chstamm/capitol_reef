@@ -11,8 +11,10 @@
     font-family: "Frutiger";
     display: flex;
     flex-direction: column;
-    color: $black;
     align-items: center;
+    button {
+      color: $black;
+    }
     .collapsible {
       padding: 1.8rem;
       width: 95%;
