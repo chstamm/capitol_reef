@@ -1,10 +1,14 @@
 .timeline-wrapper {
   @include header;
   text-align: center;
+  background-color: #bfd3bc;
+  padding-top: 3rem;
+  border-radius: 30px 30px 0px 0px;
   h1 {
     font-family: "Frutiger";
-    font-weight: 100;
+    font-weight: 400;
     font-size: 2.4rem;
+    padding-bottom: 1rem;
   }
   #content-div {
     margin-top: 1.5rem;
@@ -13,11 +17,16 @@
     flex-direction: column;
     align-items: center;
     button {
-      color: $black;
+      font-family: "Frutiger";
+      font-weight: 400;
+      color: $white;
+      border-radius: 10px;
+      background-color: $black;
+      box-shadow: 0px 2px 3px 3px rgba(0, 0, 0, 0.2)
     }
     .collapsible {
       padding: 1.8rem;
-      width: 95%;
+      width: 90%;
       border: none;
       text-align: left;
       outline: none;
@@ -43,6 +52,9 @@
       transition: max-height 0.2s ease-out;
       text-align: justify;
       text-justify: inter-word;
+      img {
+        box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.2)
+      }
       h2 {
         padding-left: 1rem;
         padding-top: 1.5rem;

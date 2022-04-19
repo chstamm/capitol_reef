@@ -700,6 +700,9 @@ body {
 
 .timeline-wrapper {
   text-align: center;
+  background-color: #bfd3bc;
+  padding-top: 3rem;
+  border-radius: 30px 30px 0px 0px;
 }
 
 .timeline-wrapper header {
@@ -732,8 +735,9 @@ body {
 
 .timeline-wrapper h1 {
   font-family: "Frutiger";
-  font-weight: 100;
+  font-weight: 400;
   font-size: 2.4rem;
+  padding-bottom: 1rem;
 }
 
 .timeline-wrapper #content-div {
@@ -752,12 +756,18 @@ body {
 }
 
 .timeline-wrapper #content-div button {
-  color: #1e1c1c;
+  font-family: "Frutiger";
+  font-weight: 400;
+  color: #F5F5F5;
+  border-radius: 10px;
+  background-color: #1e1c1c;
+  -webkit-box-shadow: 0px 2px 3px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .timeline-wrapper #content-div .collapsible {
   padding: 1.8rem;
-  width: 95%;
+  width: 90%;
   border: none;
   text-align: left;
   outline: none;
@@ -788,6 +798,11 @@ body {
   transition: max-height 0.2s ease-out;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.timeline-wrapper #content-div .content img {
+  -webkit-box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 .timeline-wrapper #content-div .content h2 {
