@@ -698,6 +698,10 @@ body {
   max-width: 400px;
 }
 
+.timeline-wrapper {
+  text-align: center;
+}
+
 .timeline-wrapper header {
   color: #F5F5F5;
   background-color: #1e1c1c;
@@ -724,6 +728,12 @@ body {
 .timeline-wrapper header #title h2 {
   font-family: "Frutiger";
   font-weight: 100;
+}
+
+.timeline-wrapper h1 {
+  font-family: "Frutiger";
+  font-weight: 100;
+  font-size: 2.4rem;
 }
 
 .timeline-wrapper #content-div {
@@ -765,6 +775,7 @@ body {
 }
 
 .timeline-wrapper #content-div .content {
+  color: #1e1c1c;
   margin: 2rem;
   max-width: 400px;
   max-height: 0;
@@ -773,6 +784,12 @@ body {
   transition: max-height 0.2s ease-out;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.timeline-wrapper #content-div .content h2 {
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+  font-size: 2rem;
 }
 
 .timeline-wrapper #content-div .content p {
