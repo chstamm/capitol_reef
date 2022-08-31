@@ -1,92 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.14" start="node4" apprev="18105">
-  <panorama id="node4">
-    <input levelingpitch="0" tilescale="1.004883" tile2url="images/Hickmans Bridge Trail Location Panorama_o_2.jpg" tile0url="images/Hickmans Bridge Trail Location Panorama_o_0.jpg" levelingroll="0" tile1url="images/Hickmans Bridge Trail Location Panorama_o_1.jpg" tilevrurl="images/Hickmans Bridge Trail Location Panorama_ovr.jpg" tilesize="2048" tile3url="images/Hickmans Bridge Trail Location Panorama_o_3.jpg" tile4url="images/Hickmans Bridge Trail Location Panorama_o_4.jpg" tile5url="images/Hickmans Bridge Trail Location Panorama_o_5.jpg">
-      <preview color="0x808080"/>
-    </input>
-    <view fovmode="0" pannorth="-108.47">
-      <start projection="4" fov="70" pan="-110" tilt="0"/>
-      <flyin projection="4" fov="70" pan="-110" tilt="0"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" pan="360" fovfisheye="360" tilt="90"/>
-    </view>
-    <userdata copyright="" description="" info="" nodeid="node4" latitude="38.28991976" heading="-108.47" author="" comment="" altitude="1685.15" customnodeid="" title="" source="" datetime="2/19/22 10:55 AM" tags="Location 4 - trail" longitude="-111.22749567"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label wordwrap="1" borderalpha="1" height="20" background="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" border="1" textcolor="0x000000" width="180"/>
-      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot description="" target="" id="Point01" url="{node3}" title="" skinid="ht_node" pan="-59.18" distance="568.298" tilt="-2.7"/>
-    </hotspots>
-    <media/>
-    <transition type="crossdissolve" zoomin="0" blendcolor="0x000000" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomafterinfov="90" zoomafteroutfov="20"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedkeyboard="0" lockedwheel="0" speedwheel="1" contextvr="1" invertwheel="0" sensitivity="8" simulatemass="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
-  </panorama>
-  <panorama id="node3">
-    <input levelingpitch="0" tilescale="1.004883" tile2url="images/Hickmans_Bridge_Location_3_o_2.jpg" tile0url="images/Hickmans_Bridge_Location_3_o_0.jpg" levelingroll="0" tile1url="images/Hickmans_Bridge_Location_3_o_1.jpg" tilevrurl="images/Hickmans_Bridge_Location_3_ovr.jpg" tilesize="2048" tile3url="images/Hickmans_Bridge_Location_3_o_3.jpg" tile4url="images/Hickmans_Bridge_Location_3_o_4.jpg" tile5url="images/Hickmans_Bridge_Location_3_o_5.jpg">
+<tour appversion="6.1.15" start="node17" apprev="18116">
+  <panorama id="node17">
+    <input tilesize="2048" tile4url="images/Hickmans Bridge Trail Location Panorama_o_4.jpg" levelingroll="0" tile1url="images/Hickmans Bridge Trail Location Panorama_o_1.jpg" tilevrurl="images/Hickmans Bridge Trail Location Panorama_ovr.jpg" tile2url="images/Hickmans Bridge Trail Location Panorama_o_2.jpg" levelingpitch="0" tile5url="images/Hickmans Bridge Trail Location Panorama_o_5.jpg" tilescale="1.004883" tile3url="images/Hickmans Bridge Trail Location Panorama_o_3.jpg" tile0url="images/Hickmans Bridge Trail Location Panorama_o_0.jpg">
       <preview color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" fov="70" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" pan="360" fovfisheye="360" tilt="90"/>
+      <start pan="-130" tilt="3.61" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata copyright="" description="" info="" nodeid="node3" latitude="38.29125025" heading="0" author="" comment="" altitude="1718.54" customnodeid="" title="" source="" datetime="2/19/22 10:20 AM" tags="Location 3" longitude="-111.23378277"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label wordwrap="1" borderalpha="1" height="20" background="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" border="1" textcolor="0x000000" width="180"/>
-      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot description="" target="" id="Point01" url="{node2}" title="" skinid="ht_node" pan="-322.1" distance="38.6061" tilt="1.56"/>
-      <hotspot description="" target="" id="Point02" url="{node4}" title="" skinid="ht_node" pan="-150.39" distance="568.298" tilt="0.86"/>
+    <userdata description="" latitude="" longitude="" title="Hickman Bridge Trail" datetime="2/19/22 10:55 AM" nodeid="node17" copyright="Derek Balkman" author="Derek Balkman" info="" comment="" altitude="-3048.00" source="" customnodeid="" heading="0" tags="Location 4 - trail"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label bordercolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" width="180" backgroundalpha="1" border="1" textalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" textcolor="0x000000" background="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-90.3" description="" title="Hickman Bridge 1 (Next)" tilt="-5.95" url="{node19}" skinid="ht_node" target="" id="Point02"/>
+      <hotspot pan="-139.87" description="" title="View from Trail" tilt="-0.62" url="images/49460336381_f8bc47fe8b_o.jpeg" skinid="ht_image" target="" id="Point04"/>
+      <hotspot pan="-255.21" description="" title="Trail Sunset" tilt="0" url="images/IMG_8453.jpg" skinid="ht_image" target="" id="Point05"/>
+      <hotspot pan="-42.36" description="" title="Small Tunnels" tilt="6.31" url="images/IMG_9828.jpg" skinid="ht_image" target="" id="Point07"/>
+      <hotspot pan="-47.15" description="" title="Small Arch" tilt="3.76" url="images/IMG_9829.jpg" skinid="ht_image" target="" id="Point08"/>
+      <hotspot pan="-264.03" description="" title="Trail Sunset" tilt="0" url="images/5c7f4f5f-3bea-4fcd-9f51-1c723f36f0f0Original.jpeg" skinid="ht_image" target="" id="Point09"/>
+      <hotspot pan="-259.43" description="" title="Start of Trail" tilt="0" url="images/IMG_8449.jpg" skinid="ht_image" target="" id="Point06"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomin="0" blendcolor="0x000000" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomafterinfov="90" zoomafteroutfov="20"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedkeyboard="0" lockedwheel="0" speedwheel="1" contextvr="1" invertwheel="0" sensitivity="8" simulatemass="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+    <transition type="crossdissolve" zoomfov="20" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" blendtime="1" zoomout="0" blendcolor="0x000000" enabled="1" zoomspeed="2" softedge="0"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" invertcontrol="1" contextfullscreen="1" sensitivity="8" lockedmouse="0" contextvr="1" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" invertwheel="0" lockedwheel="0" speedwheel="1"/>
   </panorama>
-  <panorama id="node2">
-    <input levelingpitch="0" tilescale="1.004883" tile2url="images/Hickmans Bridge Location 2 Panorama_o_2.jpg" tile0url="images/Hickmans Bridge Location 2 Panorama_o_0.jpg" levelingroll="0" tile1url="images/Hickmans Bridge Location 2 Panorama_o_1.jpg" tilevrurl="images/Hickmans Bridge Location 2 Panorama_ovr.jpg" tilesize="2048" tile3url="images/Hickmans Bridge Location 2 Panorama_o_3.jpg" tile4url="images/Hickmans Bridge Location 2 Panorama_o_4.jpg" tile5url="images/Hickmans Bridge Location 2 Panorama_o_5.jpg">
+  <panorama id="node19">
+    <input tilesize="2048" tile4url="images/Hickmans_Bridge_Location_3_o_4.jpg" levelingroll="0" tile1url="images/Hickmans_Bridge_Location_3_o_1.jpg" tilevrurl="images/Hickmans_Bridge_Location_3_ovr.jpg" tile2url="images/Hickmans_Bridge_Location_3_o_2.jpg" levelingpitch="0" tile5url="images/Hickmans_Bridge_Location_3_o_5.jpg" tilescale="1.004883" tile3url="images/Hickmans_Bridge_Location_3_o_3.jpg" tile0url="images/Hickmans_Bridge_Location_3_o_0.jpg">
       <preview color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="-124.18">
-      <start projection="4" fov="70" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" pan="360" fovfisheye="360" tilt="90"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="46.13" tilt="21.57" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata copyright="" description="" info="" nodeid="node2" latitude="38.29151971" heading="-124.18" author="" comment="" altitude="1727.14" customnodeid="" title="" source="" datetime="2/19/22 10:13 AM" tags="Location 2" longitude="-111.23406172"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label wordwrap="1" borderalpha="1" height="20" background="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" border="1" textcolor="0x000000" width="180"/>
-      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot description="" target="" id="Point01" url="{node1}" title="" skinid="ht_node" pan="-4.85" distance="52.032" tilt="24.22"/>
-      <hotspot description="" target="" id="Point02" url="{node3}" title="" skinid="ht_node" pan="-250.88" distance="38.6061" tilt="-5.97"/>
+    <userdata description="" latitude="" longitude="" title="Hickman Bridge Location 1" datetime="2/19/22 10:20 AM" nodeid="node19" copyright="Derek Balkman" author="Derek Balkman" info="" comment="" altitude="-3048.00" source="" customnodeid="" heading="0" tags="Location 3"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label bordercolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" width="180" backgroundalpha="1" border="1" textalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" textcolor="0x000000" background="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-317.7" description="" title="Hickman Bridge 2 (Next)" tilt="1.44" url="{node18}" skinid="ht_node" target="" id="Point01"/>
+      <hotspot pan="-162.04" description="" title="Hickman Bridge Trail (Previous)" tilt="-4.58" url="{node17}" skinid="ht_node" target="" id="Point02"/>
+      <hotspot pan="-308.27" description="" title="View" tilt="10.26" url="images/IMG_9778.jpg" skinid="ht_image" target="" id="Point03"/>
+      <hotspot pan="-284.85" description="" title="Flip" tilt="-3.93" url="images/Hickman flip.jpg" skinid="ht_image" target="" id="Point04"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomin="0" blendcolor="0x000000" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomafterinfov="90" zoomafteroutfov="20"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedkeyboard="0" lockedwheel="0" speedwheel="1" contextvr="1" invertwheel="0" sensitivity="8" simulatemass="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+    <transition type="crossdissolve" zoomfov="20" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" blendtime="1" zoomout="0" blendcolor="0x000000" enabled="1" zoomspeed="2" softedge="0"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" invertcontrol="1" contextfullscreen="1" sensitivity="8" lockedmouse="0" contextvr="1" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" invertwheel="0" lockedwheel="0" speedwheel="1"/>
   </panorama>
-  <panorama id="node1">
-    <input levelingpitch="0" tilescale="1.004883" tile2url="images/Hickman Bridge location 1 Panorama_o_2.jpg" tile0url="images/Hickman Bridge location 1 Panorama_o_0.jpg" levelingroll="0" tile1url="images/Hickman Bridge location 1 Panorama_o_1.jpg" tilevrurl="images/Hickman Bridge location 1 Panorama_ovr.jpg" tilesize="2048" tile3url="images/Hickman Bridge location 1 Panorama_o_3.jpg" tile4url="images/Hickman Bridge location 1 Panorama_o_4.jpg" tile5url="images/Hickman Bridge location 1 Panorama_o_5.jpg">
+  <panorama id="node18">
+    <input tilesize="2048" tile4url="images/Hickmans Bridge Location 2 Panorama_o_4.jpg" levelingroll="0" tile1url="images/Hickmans Bridge Location 2 Panorama_o_1.jpg" tilevrurl="images/Hickmans Bridge Location 2 Panorama_ovr.jpg" tile2url="images/Hickmans Bridge Location 2 Panorama_o_2.jpg" levelingpitch="0" tile5url="images/Hickmans Bridge Location 2 Panorama_o_5.jpg" tilescale="1.004883" tile3url="images/Hickmans Bridge Location 2 Panorama_o_3.jpg" tile0url="images/Hickmans Bridge Location 2 Panorama_o_0.jpg">
       <preview color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="106.78">
-      <start projection="4" fov="70" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" pan="360" fovfisheye="360" tilt="90"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="-16.59" tilt="40.51" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata copyright="" description="" info="" nodeid="node1" latitude="38.29128393" heading="106.78" author="" comment="" altitude="1749.99" customnodeid="" title="" source="" datetime="2/19/22 9:56 AM" tags="Location 1" longitude="-111.23457670"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label wordwrap="1" borderalpha="1" height="20" background="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" border="1" textcolor="0x000000" width="180"/>
-      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot description="" target="" id="Point01" url="{node2}" title="" skinid="ht_node" pan="-311.53" distance="52.032" tilt="-20.02"/>
+    <userdata description="" latitude="" longitude="" title="Hickman Bridge Location 2" datetime="2/19/22 10:13 AM" nodeid="node18" copyright="Derek Balkman" author="Derek Balkman" info="" comment="" altitude="-3048.00" source="" customnodeid="" heading="0" tags="Location 2"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label bordercolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" width="180" backgroundalpha="1" border="1" textalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" textcolor="0x000000" background="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-11.26" description="" title="Hickman Bridge 3 (Next)" tilt="24.52" url="{node16}" skinid="ht_node" target="" id="Point01"/>
+      <hotspot pan="-237.62" description="" title="Hickman Bridge 1 (Previous)" tilt="-10.73" url="{node19}" skinid="ht_node" target="" id="Point02"/>
+      <hotspot pan="-327.94" description="" title="Hickman Bridge Night Sky Image" tilt="31.07" url="images/Night Hickman.jpg" skinid="ht_image" target="" id="Point03"/>
+      <hotspot pan="-55.11" description="" title="Night Sky" tilt="21.85" url="images/Hickmannight.jpg" skinid="ht_image" target="" id="Point04"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomin="0" blendcolor="0x000000" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomafterinfov="90" zoomafteroutfov="20"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedkeyboard="0" lockedwheel="0" speedwheel="1" contextvr="1" invertwheel="0" sensitivity="8" simulatemass="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+    <transition type="crossdissolve" zoomfov="20" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" blendtime="1" zoomout="0" blendcolor="0x000000" enabled="1" zoomspeed="2" softedge="0"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" invertcontrol="1" contextfullscreen="1" sensitivity="8" lockedmouse="0" contextvr="1" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" invertwheel="0" lockedwheel="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node16">
+    <input tilesize="2048" tile4url="images/Hickman Bridge location 1 Panorama_o_4.jpg" levelingroll="0" tile1url="images/Hickman Bridge location 1 Panorama_o_1.jpg" tilevrurl="images/Hickman Bridge location 1 Panorama_ovr.jpg" tile2url="images/Hickman Bridge location 1 Panorama_o_2.jpg" levelingpitch="0" tile5url="images/Hickman Bridge location 1 Panorama_o_5.jpg" tilescale="1.004883" tile3url="images/Hickman Bridge location 1 Panorama_o_3.jpg" tile0url="images/Hickman Bridge location 1 Panorama_o_0.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="50.98" tilt="11.67" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" latitude="" longitude="" title="Hickman Bridge Location 3" datetime="2/19/22 9:56 AM" nodeid="node16" copyright="Derek Balkman" author="Derek Balkman" info="" comment="" altitude="-3048.00" source="" customnodeid="" heading="0" tags="Location 1"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label bordercolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" width="180" backgroundalpha="1" border="1" textalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" textcolor="0x000000" background="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-291.95" description="" title="Hickman Bridge 2 (Previous)" tilt="-21.27" url="{node18}" skinid="ht_node" target="" id="Point01"/>
+      <hotspot pan="-320.38" description="" title="Arch View" tilt="-26.49" url="images/IMG_9766.jpg" skinid="ht_image" target="" id="Point03"/>
+      <hotspot pan="-325.6" description="" title="Arch" tilt="-26.04" url="images/Art.jpg" skinid="ht_image" target="" id="Point04"/>
+      <hotspot pan="-262.96" description="" title="Night Sky" tilt="-1.91" url="images/hickmannight4.jpg" skinid="ht_image" target="" id="Point05"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomfov="20" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" blendtime="1" zoomout="0" blendcolor="0x000000" enabled="1" zoomspeed="2" softedge="0"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" invertcontrol="1" contextfullscreen="1" sensitivity="8" lockedmouse="0" contextvr="1" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" invertwheel="0" lockedwheel="0" speedwheel="1"/>
   </panorama>
   <masternode>
-    <userdata copyright="" description="" info="" nodeid="master" latitude="" heading="0" author="" comment="" customnodeid="" title="" source="" datetime="" tags="" longitude=""/>
+    <userdata description="" latitude="" longitude="" title="" datetime="" nodeid="master" copyright="" author="" info="" comment="" source="" customnodeid="" heading="0" tags=""/>
   </masternode>
 </tour>
