@@ -1,27 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama id="node1" appversion="6.1.14" apprev="18105">
-  <input levelingpitch="0" tilescale="1.004883" tile2url="images/IMG_7791_2_3_Balanced Panorama_o_2.jpg" tile0url="images/IMG_7791_2_3_Balanced Panorama_o_0.jpg" levelingroll="0" tile1url="images/IMG_7791_2_3_Balanced Panorama_o_1.jpg" tilevrurl="images/IMG_7791_2_3_Balanced Panorama_ovr.jpg" tilesize="2048" tile3url="images/IMG_7791_2_3_Balanced Panorama_o_3.jpg" tile4url="images/IMG_7791_2_3_Balanced Panorama_o_4.jpg" tile5url="images/IMG_7791_2_3_Balanced Panorama_o_5.jpg">
-    <preview color="0x808080"/>
-  </input>
-  <view fovmode="0" pannorth="90">
-    <start projection="4" fov="70" pan="0" tilt="-15"/>
-    <flyin projection="9" fov="170" pan="0" tilt="-90"/>
-    <min fovpixel="2" pan="0" tilt="-90"/>
-    <max fovstereographic="270" fov="120" scaletofit="1" pan="360" fovfisheye="360" tilt="90"/>
-  </view>
-  <userdata copyright="" description="" info="" nodeid="node1" latitude="38.26095027" heading="90" author="Derek Balkman" comment="" altitude="1774.98" customnodeid="" title="Cassidy Arch" source="" datetime="11/6/21 10:26 AM" tags="CR_Cassidy_Arch" longitude="-111.22597217"/>
-  <hotspots wordwrap="1" height="20" width="180">
-    <label wordwrap="1" borderalpha="1" height="20" background="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" border="1" textcolor="0x000000" width="180"/>
-    <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-    <hotspot description="" target="" id="Point01" url="images/8375716740_059ca6d88d_o.jpeg" title="" skinid="ht_image" pan="-343.47" tilt="-24.9"/>
-    <hotspot description="" target="" id="Point04" url="images/IMG_9150.jpeg" title="" skinid="ht_image" pan="-1.9" tilt="-14.6"/>
-    <hotspot description="" target="" id="Point05" url="images/IMG_9901.jpg" title="" skinid="ht_image" pan="-82.29" tilt="3.58"/>
-    <hotspot description="" target="" id="Point06" url="images/IMG_9890.jpg" title="" skinid="ht_image" pan="-230.15" tilt="-2.14"/>
-    <hotspot description="" target="" id="Point07" url="images/IMG_9908.jpeg" title="" skinid="ht_image" pan="-302.66" tilt="-0.31"/>
-    <hotspot description="" target="" id="Point08" url="images/IMG_9890.jpg" title="" skinid="ht_image" pan="-39.02" tilt="-8.27"/>
-  </hotspots>
-  <media/>
-  <transition type="crossdissolve" zoomin="0" blendcolor="0x000000" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomafterinfov="90" zoomafteroutfov="20"/>
-  <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-  <control lockedkeyboard="0" lockedwheel="0" speedwheel="1" contextvr="1" invertwheel="0" sensitivity="8" simulatemass="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
-</panorama>
+<tour start="node4" apprev="18116" appversion="6.1.15">
+  <panorama id="node4">
+    <input width="1973" levelbiashidpi="1.000" leveltilesize="510" levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1973" overlap="1" levelingpitch="0" levelbias="0.400">
+      <level width="1973" preload="0" predecode="0" height="1973"/>
+      <level width="986" preload="0" predecode="0" height="986"/>
+      <level width="493" preload="1" predecode="1" height="493"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" fov="70" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" scaletofit="1" fovfisheye="360" fov="120" tilt="90"/>
+    </view>
+    <userdata tags="" longitude="" altitude="-3048.00" latitude="" author="Derek Balkman" customnodeid="" info="" copyright="Derek Balkman" title="Cassidy Arch Trail Head" datetime="3/26/22 2:45 PM" source="" nodeid="node4" heading="0" description="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundalpha="1" width="180" border="1" textalpha="1" enabled="1" borderalpha="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" height="20" wordwrap="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-285.98" target="" id="Point01" tilt="6" title="Cassidy Arch Trail 2 (Next)" url="{node3}" skinid="ht_node" description=""/>
+      <hotspot pan="-15.58" target="" id="Point04" tilt="-2.71" title="View from Trailhead" url="images/Cassidy.jpg" skinid="ht_image" description=""/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomfov="20" enabled="1" blendcolor="0x000000" zoomafteroutfov="20" type="crossdissolve" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" zoomafterinfov="90" zoomin="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertwheel="0" lockedkeyboardzoom="0" lockedmouse="0" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" contextvr="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1" rubberband="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input width="1975" levelbiashidpi="1.000" leveltilesize="510" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1975" overlap="1" levelingpitch="0" levelbias="0.400">
+      <level width="1975" preload="0" predecode="0" height="1975"/>
+      <level width="987" preload="0" predecode="0" height="987"/>
+      <level width="493" preload="1" predecode="1" height="493"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="-54" fov="70" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" scaletofit="1" fovfisheye="360" fov="120" tilt="90"/>
+    </view>
+    <userdata tags="" longitude="" altitude="-3048.00" latitude="" author="Derek Balkman" customnodeid="" info="" copyright="Derek Balkman" title="Above Parking Lot Cassidy Arch Trail" datetime="3/26/22 2:31 PM" source="" nodeid="node3" heading="0" description="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundalpha="1" width="180" border="1" textalpha="1" enabled="1" borderalpha="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" height="20" wordwrap="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-98.21" target="" id="Point01" tilt="5.73" title="Cassidy Arch Trail 3 (Next)" url="{node2}" skinid="ht_node" description=""/>
+      <hotspot pan="-229.57" target="" id="Point02" tilt="-9.59" title="Cassidy Arch Start Trail (Previous)" url="{node4}" skinid="ht_node" description=""/>
+      <hotspot pan="-86.87" target="" id="Point07" tilt="-4.18" title="Trail Hike View" url="images/IMG_9908.jpeg" skinid="ht_image" description=""/>
+      <hotspot pan="-314.77" target="" id="Point03" tilt="-15.04" title="View Spot" url="images/Hike cassidy2.jpg" skinid="ht_image" description=""/>
+      <hotspot pan="-111.5" target="" id="Point04" tilt="7.33" title="Rock Image" url="images/cassidy6.jpg" skinid="ht_image" description=""/>
+      <hotspot pan="-2.49" target="" id="Point05" tilt="-18.75" title="Video of a Flash Flood" url="media/IMG_3727.mp4" skinid="ht_video_file" description=""/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomfov="20" enabled="1" blendcolor="0x000000" zoomafteroutfov="20" type="crossdissolve" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" zoomafterinfov="90" zoomin="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertwheel="0" lockedkeyboardzoom="0" lockedmouse="0" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" contextvr="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1" rubberband="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input width="1983" levelbiashidpi="1.000" leveltilesize="510" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1983" overlap="1" levelingpitch="0" levelbias="0.400">
+      <level width="1983" preload="0" predecode="0" height="1983"/>
+      <level width="991" preload="0" predecode="0" height="991"/>
+      <level width="495" preload="1" predecode="1" height="495"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="-140" fov="70" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" scaletofit="1" fovfisheye="360" fov="120" tilt="90"/>
+    </view>
+    <userdata tags="" longitude="" altitude="-3048.00" latitude="" author="Derek Balkman" customnodeid="" info="" copyright="Derek Balkman" title="First View of Cassidy Arch 360" datetime="3/26/22 2:05 PM" source="" nodeid="node2" heading="0" description="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundalpha="1" width="180" border="1" textalpha="1" enabled="1" borderalpha="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" height="20" wordwrap="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-169.78" target="" id="Point01" tilt="0.74" title="Cassidy Arch (Next)" url="{node1}" skinid="ht_node" description=""/>
+      <hotspot pan="-256.59" target="" id="Point02" tilt="-3.03" title="Cassidy Arch Trail 2 (Previous)" url="{node3}" skinid="ht_node" description=""/>
+      <hotspot pan="-130.2" target="" id="Point03" tilt="-3.42" title="First view of Cassidy Arch" url="images/IMG_9133.jpg" skinid="ht_image" description=""/>
+      <hotspot pan="-178.68" target="" id="Point04" tilt="-3.09" title="Picture of on the Trail 1" url="images/hike cassidy1.jpg" skinid="ht_image" description=""/>
+      <hotspot pan="-176.96" target="" id="Point05" tilt="5.84" title="Picture of on the Trail 2" url="images/cassid75.jpg" skinid="ht_image" description=""/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomfov="20" enabled="1" blendcolor="0x000000" zoomafteroutfov="20" type="crossdissolve" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" zoomafterinfov="90" zoomin="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertwheel="0" lockedkeyboardzoom="0" lockedmouse="0" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" contextvr="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1" rubberband="0"/>
+  </panorama>
+  <panorama id="node1">
+    <input width="2221" levelbiashidpi="1.000" leveltilesize="510" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2221" overlap="1" levelingpitch="0" levelbias="0.400">
+      <level width="2221" preload="0" predecode="0" height="2221"/>
+      <level width="1110" preload="0" predecode="0" height="1110"/>
+      <level width="555" preload="0" predecode="0" height="555"/>
+      <level width="277" preload="1" predecode="1" height="277"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="90" fovmode="0">
+      <start pan="0" fov="70" tilt="-15" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" scaletofit="1" fovfisheye="360" fov="120" tilt="90"/>
+    </view>
+    <userdata tags="CR_Cassidy_Arch" longitude="" altitude="-3048.00" latitude="" author="Derek Balkman" customnodeid="" info="" copyright="Derek Balkman" title="Cassidy Arch" datetime="11/6/21 10:26 AM" source="" nodeid="node1" heading="90" description="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundalpha="1" width="180" border="1" textalpha="1" enabled="1" borderalpha="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" height="20" wordwrap="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-7.32" target="" id="Point01" tilt="-35.85" title="Cassidy Arch Picture 1" url="images/8375716740_059ca6d88d_o.jpeg" skinid="ht_image" description=""/>
+      <hotspot pan="-354.97" target="" id="Point04" tilt="-13.8" title="View from here towards you" url="images/IMG_9150.jpeg" skinid="ht_image" description=""/>
+      <hotspot pan="-82.28" target="" id="Point05" tilt="3.48" title="The Canyon Veiw" url="images/IMG_9901.jpg" skinid="ht_image" description=""/>
+      <hotspot pan="-254.79" target="" id="Point06" tilt="-0.96" title="Rock Tower (A trail marker)" url="images/IMG_9890.jpg" skinid="ht_image" description=""/>
+      <hotspot pan="-287.69" target="" id="Point02" tilt="-3" title="Cassidy Arch Trail 3 (Previous)" url="{node2}" skinid="ht_node" description=""/>
+      <hotspot pan="-316.76" target="" id="Point03" tilt="-7.23" title="Part of Trail Image" url="images/IMG_9892.jpg" skinid="ht_image" description=""/>
+      <hotspot pan="-320.58" target="" id="Point07" tilt="-32.35" title="Cassidy Arch Picture 2" url="images/Cassidy arch2.jpg" skinid="ht_image" description=""/>
+      <hotspot pan="-37.95" target="" id="Point09" tilt="-15.36" title="Cassidy Arch Picture 3" url="images/IMG_8882-HDR.jpg" skinid="ht_image" description=""/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomfov="20" enabled="1" blendcolor="0x000000" zoomafteroutfov="20" type="crossdissolve" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" zoomafterinfov="90" zoomin="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertwheel="0" lockedkeyboardzoom="0" lockedmouse="0" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" contextvr="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1" rubberband="0"/>
+  </panorama>
+  <masternode>
+    <userdata tags="" longitude="" latitude="" author="" customnodeid="" info="" copyright="" title="" datetime="" source="" nodeid="master" heading="0" description="" comment=""/>
+  </masternode>
+</tour>
