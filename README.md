@@ -48,8 +48,7 @@
   - Link: [https://fonts.googleapis.com/icon?family=Material+Icons]
   - File-name: capitolReefAR/fonts/material-icons.css
   - _Note that material icons link also had a link in the file, which was made into a file to work remotely_
-  - The line <link rel="preconnect" href="https://fonts.gstatic.com"> was commented out, and that didn't cause issue. It seems as though this link no longer connects to anything.
-
+  - The line <link rel="preconnect" href="https://fonts.gstatic.com"> was removed. 
 - Frutiger
   - This font was from a TIF file provided by Emily Hedrick, which I ran through [Transfonter](https://transfonter.org/) to get all the other files types
   - Used [Tom Ray's Custom Fonts](https://scalablecss.com/setup-custom-fonts-with-font-face/) for instructions how to make a font work without calling to a website
